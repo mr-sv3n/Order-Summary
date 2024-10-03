@@ -3,9 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sven Srbljanin">
+    <meta name="description" content="Order summary for music service">
+    <meta name="tags" content="order, summary, payment, cancellation, order change">
+    <link rel="icon"  type="image/png" href="./Media/Images/favicon-32x32.png">
+    <link rel="stylesheet" href="./style.css">
     <title>Order Sumamry</title>
 </head>
 <body>
+    <main> <!--parent flex container-->
+        
+
+        <header> <!--Flex item 1-->
+                <img src="./Media/Images/illustration-hero.svg" alt="Girl listening to music and dancing">
+         </header>
+
+         <section class="confirmation message"> <!--1st flex child container->
+              <h1>Order Summary</h1> <!--Flex item 1-->
+
+            <article> <!--Flex item 1-->
+                <p>You can now listen to millions or songs,<br>audiobooks, and podcasts on any device<br>anywhere you like!</p>
+            </article>
+         </section>
+
+        <section class="summary"> <!--2nd flex child container-->
+
+            <!--Flex Item 1 - Logo -->
+            <div class="music-logo">
+                <img src="./Media/Images/icon-music.svg" 
+                alt="music logo">
+            </div>
+
+            <!--Flex Item 2 - Package Type & Price -->ß
+            <div class="price"> 
+                <span class="package-type">Annaul Plan</span> 
+                <br> 
+                <span class="package-price">$59.99/year</span>
+            </div>
+
+            <!--Flex Item 3 - Change order -->ß
+            <div class="change-order">
+                <a href="https://www.youtube.com/watch?v=M8Wj6-gPY0g">Change</a>
+            </div>
+        </section>
+
+        
+        <section class="buttons"> <!--3rd flex chold container-->
+
+            <!--Payment button & Flex Item 1-->
+            <button class="payment-button">
+                <span class="payment-button-text">Proceed to Payment</span>
+            </button>
+
+             <!--Cancel button & Flex Item2-->
+            <button class="cancel-button">
+                <span class="cancel-button-text">Cancel order</span>
+             </button>
+        </section>
+
+    </main>     
     
 </body>
 </html>
