@@ -10,57 +10,54 @@
     <link rel="stylesheet" href="./style.css">
     <title>Order Sumamry</title>
 </head>
-<body>
-    <main> <!--parent flex container-->
+<body> <!--cointains background of the page-->
+    <main> 
         
 
-        <header> <!--Flex item 1-->
+        <header> 
                 <img src="./Media/Images/illustration-hero.svg" alt="Girl listening to music and dancing">
          </header>
 
-         <section class="confirmation message"> <!--1st flex child container->
-              <h1>Order Summary</h1> <!--Flex item 1-->
+         
+              <h1>Order Summary</h1> 
 
-            <article> <!--Flex item 1-->
+            <article> 
                 <p>You can now listen to millions or songs,<br>audiobooks, and podcasts on any device<br>anywhere you like!</p>
             </article>
-         </section>
+       
 
-        <section class="summary"> <!--2nd flex child container-->
+        <section class="order-summary"> <!--Flex container-->
 
             <!--Flex Item 1 - Logo -->
-            <div class="music-logo">
+            <div class="summary__music-logo">
                 <img src="./Media/Images/icon-music.svg" 
                 alt="music logo">
             </div>
 
-            <!--Flex Item 2 - Package Type & Price -->ß
+            <!--Flex Item 2 - Package Type & Price -->
             <div class="price"> 
-                <span class="package-type">Annaul Plan</span> 
+                <span class="summary__package-type">Annaul Plan</span> 
                 <br> 
-                <span class="package-price">$59.99/year</span>
+                <span class="summary__package-price">$59.99/year</span>
             </div>
 
-            <!--Flex Item 3 - Change order -->ß
-            <div class="change-order">
+            <!--Flex Item 3 - Change order -->
+            <div class="summary__change-order">
                 <a href="https://www.youtube.com/watch?v=M8Wj6-gPY0g">Change</a>
             </div>
+
         </section>
 
-        
-        <section class="buttons"> <!--3rd flex chold container-->
-
-            <!--Payment button & Flex Item 1-->
-            <button class="payment-button">
+          
+        <button aria-label="Proceed to Payment" class="payment-button">
                 <span class="payment-button-text">Proceed to Payment</span>
-            </button>
+        </button>
 
-             <!--Cancel button & Flex Item2-->
-            <button class="cancel-button">
+            
+        <button aria-label="Cancel Order" class="cancel-button">
                 <span class="cancel-button-text">Cancel order</span>
-             </button>
-        </section>
-
+        </button>
+        
     </main>     
     
 </body>
