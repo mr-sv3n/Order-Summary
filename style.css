@@ -7,13 +7,28 @@
 
 }
 body {
-   /* background-color: #D6E0FF; */
    background-image: url(./Media/Images/pattern-background-desktop.svg);
    background-repeat: repeat-x;
    background-position-x:40%;
    background-color: hsla(225, 100%, 92%, 0.699);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vw;
+   width: 100vw;
 }
 
 main {
-    
+   
+    border-radius: 15px;
+    background-color: white
+   
+
+}
+
+header img {
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
 }
