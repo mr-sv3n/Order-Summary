@@ -148,6 +148,7 @@ main .order-summary .price .summary__package-price {
 
 .buttons .payment-button a {
    text-decoration: none;
+   font-size: 16px;
 }
 
 .buttons .cancel-button {
@@ -162,6 +163,7 @@ main .order-summary .price .summary__package-price {
     text-decoration: none;
     font-weight: bold;
     color:#94939A;
+    font-size: 16px;
 }
 
 .buttons .cancel-button a:hover {
