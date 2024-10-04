@@ -30,7 +30,7 @@ header img {
 }
 
 h1 {
-    padding-top: 5%;
+    padding-top: 8%;
     padding-bottom: 3%;
 }
 
@@ -51,6 +51,7 @@ main {
     width: 450px;
     border-radius: 15px;
     background-color: white;
+    box-shadow: 0 0 50px hsla(0, 0%, 0%, 0.37)
 }
 
 .order-summary {
@@ -102,6 +103,7 @@ main .order-summary .price .summary__package-price {
 
 .order-summary .summary__change-order a:hover {
     text-decoration: none;
+    font-weight: normal;
 }
 
 .buttons {
@@ -122,6 +124,11 @@ main .order-summary .price .summary__package-price {
     border-radius: 10px;
     background-color: #382AE1;
     border-color: transparent;
+    box-shadow: 0px 10px 45px hsla(245, 75%, 52%, 0.592)
+}
+
+.buttons .payment-button:hover {
+    background-color: #766CF2;
 }
 
 .buttons .payment-button .payment-button-text {
@@ -145,4 +152,8 @@ main .order-summary .price .summary__package-price {
     text-decoration: none;
     font-weight: bold;
     color:#94939A;
+}
+
+.buttons .cancel-button a:hover {
+    color: black;
 }
