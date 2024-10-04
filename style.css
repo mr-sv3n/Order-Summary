@@ -167,3 +167,10 @@ main .order-summary .price .summary__package-price {
 .buttons .cancel-button a:hover {
     color: black;
 }
+
+@media screen and (max-width: 510px) {
+    .summary__change-order {
+         padding-left: 10%;}
+         main {
+            height: 75vh; }
+        }
