@@ -12,6 +12,8 @@ body {
    background-position-x:40%;
    background-color: hsla(225, 100%, 92%, 0.699);
    display: flex;
+
+   flex-direction: flex-start;
    flex-direction: column;
    justify-content: center;
    align-items: center;
@@ -20,20 +22,127 @@ body {
    width: 100vw;
 }
 
+header img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;  
+ 
+}
+
+h1 {
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+article {
+    font-size: 16px;
+    color: #94939A;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.5em;
+   
+}
+
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    min-height: 60vh;
-    min-width: 40vw;
+    align-items:  center;
+    height: 680px;
+    width: 450px;
     border-radius: 15px;
     background-color: white;
-   
+}
+
+.order-summary {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: #F8F9FF;
+    border-radius: 15px;
+    width: 70%;
+}
+
+.summary__music-logo {
+    margin-right: -80px;
+    
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: flex-start;
+    padding-left: 0%;
+    line-height: 0.8em;
+}
+
+
+main .order-summary .price .summary__package-type {
+    font-weight: bold;
+}
+
+main .order-summary .price .summary__package-price {
+    color: #94939A;
+    font-weight: 700;
+}
+
+.summary__change-order {
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+.summary__change-order a {
+    color: #3829E1;
+}
+
+.order-summary .summary__change-order a:hover {
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    justify-content: space-between;
+    width: 80%;
 
 }
 
-header img {
-    border-radius: 15px;
+.buttons .payment-button {
+    margin: 1em;
+    margin-bottom: 2em;
     width: 100%;
-    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #382AE1;
+    border-color: transparent;
+}
+
+.buttons .payment-button .payment-button-text {
+    color: white;
+    font-weight: bold;
+}
+
+.buttons .payment-button a {
+   text-decoration: none;
+}
+
+.buttons .cancel-button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    border-color: transparent;
+    }
+
+.buttons .cancel-button a {
+    text-decoration: none;
+    font-weight: bold;
+    color:#94939A;
 }

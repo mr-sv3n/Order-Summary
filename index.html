@@ -11,7 +11,7 @@
     <title>Order Sumamry</title>
 </head>
 <body> <!--cointains background of the page-->
-    <main> <!--flex container-->
+    <main>  <!--flex container, img, h1, article, order summary and buttons are flex items-->
         
 
         <header> 
@@ -19,11 +19,11 @@
          </header>
 
          
-              <h1>Order Summary</h1> 
+        <h1>Order Summary</h1> 
 
-            <article> 
+         <article> 
                 <p>You can now listen to millions or songs,<br>audiobooks, and podcasts on any device<br>anywhere you like!</p>
-            </article>
+         </article>
        
 
         <section class="order-summary"> <!--Flex container-->
@@ -36,27 +36,29 @@
 
             <!--Flex Item 2 - Package Type & Price -->
             <div class="price"> 
-                <span class="summary__package-type">Annaul Plan</span> 
+                <span class="summary__package-type">Annual Plan</span> 
                 <br> 
                 <span class="summary__package-price">$59.99/year</span>
             </div>
 
             <!--Flex Item 3 - Change order -->
             <div class="summary__change-order">
-                <a href="https://www.youtube.com/watch?v=M8Wj6-gPY0g">Change</a>
+                <a href="">Change</a>
             </div>
 
         </section>
+        <section class="buttons"> <!--flex container for buttons-->
 
-          <!--Payment button-->
-        <button aria-label="Proceed to Payment" class="payment-button">
-                <span class="payment-button-text">Proceed to Payment</span>
-        </button>
+            <!--Payment button-->
+            <button aria-label="Proceed to Payment" class="payment-button">
+                    <a href=""><span class="payment-button-text">Proceed to Payment</span></a>
+            </button>
 
-           <!--Cancel button-->
-        <button aria-label="Cancel Order" class="cancel-button">
-                <span class="cancel-button-text">Cancel order</span>
-        </button>
+            <!--Cancel button-->
+            <button aria-label="Cancel Order" class="cancel-button">
+                   <a href=""><span class="cancel-button-text">Cancel order</span></a> 
+            </button>
+        </section>
         
     </main>     
     
